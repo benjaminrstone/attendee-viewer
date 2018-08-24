@@ -7,6 +7,5 @@ applications:
   instances: 1
   memory: 750M  
   services:
-  - config-server
-  - cloud-bus
-  - service-registry
+  - cndev-config-server
+  - eureka-server
